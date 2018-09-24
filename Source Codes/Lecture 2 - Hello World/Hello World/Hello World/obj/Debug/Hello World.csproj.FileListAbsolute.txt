@@ -1,0 +1,7 @@
+C:\Users\Furkan Gözükara\source\repos\Hello World\Hello World\bin\Debug\Hello World.exe.config
+C:\Users\Furkan Gözükara\source\repos\Hello World\Hello World\bin\Debug\Hello World.exe
+C:\Users\Furkan Gözükara\source\repos\Hello World\Hello World\bin\Debug\Hello World.pdb
+C:\Users\Furkan Gözükara\source\repos\Hello World\Hello World\obj\Debug\Hello World.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\source\repos\Hello World\Hello World\obj\Debug\Hello World.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\source\repos\Hello World\Hello World\obj\Debug\Hello World.exe
+C:\Users\Furkan Gözükara\source\repos\Hello World\Hello World\obj\Debug\Hello World.pdb
