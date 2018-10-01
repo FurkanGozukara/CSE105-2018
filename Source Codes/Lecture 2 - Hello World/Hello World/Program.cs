@@ -52,10 +52,12 @@ namespace Hello_World
             sbyte mySbyte = 127;// between -127 <> 127
                                 //short equal to Int16
 
-            char myChar = '%';
-           string gg = Convert.ToString(myChar, 2);
+            char myChar = 'A';
+            string gg = Convert.ToString(myChar, 2);
             string myString = "example";
 
+            string ggs = Convert.ToString(myChar, 10);
+            string ggs2 = Convert.ToString(myChar, 16);
 
         }
     }
