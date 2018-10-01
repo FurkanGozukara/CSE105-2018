@@ -209,7 +209,11 @@ namespace Lecture_3
 
             }
 
+            int gg = 3 - 4 * 5;
+            int gg2 = (3 - 4) * 5;
 
+            Console.WriteLine(gg);
+            Console.WriteLine(gg2);
 
             Console.WriteLine("hello world");
 
