@@ -10,143 +10,213 @@ namespace Lecture_3
     {
         static void Main(string[] args)
         {
-            string example = "I am going to school";
+            int a = 5, b = 7;
+            int c = a + b;
+            Console.Write("version 1 : c is equal to {0}\n\n", c);
+            Console.Write("version 2 : c is equal to " + c + "\n");
+            Console.Write($"version 3 : c is equal to {c}\n\n");
 
-            char myChar = 'F';
+            int d = c * a * b;
+            int e = d / 5;
+            int k = d - e;
 
-            char[] arEx = example.ToCharArray();
+            Console.WriteLine("version 1 : c is equal to {0}, d is equal to {1}, e is equal to {2}, k is equal to {3}, c is equal to {0}"
+                , c, d, e, k);
 
-            string srTemp2 = "my first score is {0}, my third score is {2}, my second score is {1}";
+            Console.WriteLine("version 2 : c is equal to " + c + ", d is equal to " + d + ", e is equal to " + e + ", k is equal to " + k + ", c is equal to " + c);
 
-            string myFormatString = string.Format(srTemp2, 85, 75, 45);
-
-            Console.WriteLine("the first element of the array is {0}", arEx[0]);
-            Console.WriteLine($"the second element of the array is {arEx[1]}");
-            Console.WriteLine("the third element of the array is " + arEx[2]);
-
-            //this gives error because index starts from 0 last index is 19
-            //Console.WriteLine("the last element of the array is {0}", arEx[20]);
-
-            //this gives error because index starts from 0 last index is 19
-            //Console.WriteLine("the last element of the array is {0}", arEx[arEx.Length]);
-
-            char[] myTempArray = new char[5];
-
-            myTempArray[0] = 'P';
-            myTempArray[1] = 'r';
-            myTempArray[2] = 'o';
-            myTempArray[3] = 'g';
-            myTempArray[4] = 'r';
-            //this gives error because the maximum lenght of initialized array is 5 and index 5 means the 6 th element
-            //myTempArray[5] = 'a';
+            Console.WriteLine($"version 3 : c is equal to {c}, d is equal to {d}, e is equal to {e}, k is equal to {k}, c is equal to {c}");
 
 
-            //not declared yet error
-            //myTempArray2[0] = 'P';
+            if (d > e)
+                Console.WriteLine("d is bigger than e");
 
-            char[] myTempArray2;
+            if (d < e)
+                Console.WriteLine("e is bigger than d");
 
-            //unassigned error
-            //myTempArray2[1] = 'r';
-
-            int[] myIntArray = new int[3];
-            myIntArray[0] = 3;
-            myIntArray[1] = 12;
-            myIntArray[2] = 32;
-
-            //2,3 
-            //7,9
-
-            int[,] mySimpleMatrix = new int[2, 2];
-            mySimpleMatrix[0, 0] = 2;
-            mySimpleMatrix[0, 1] = 3;
-            mySimpleMatrix[1, 0] = 7;
-            mySimpleMatrix[1, 1] = 9;
-
-            Console.WriteLine("matrix second row second number is " +
-                mySimpleMatrix[1, 1]);
-
-            int[,,] myThreeDimensionalMatrix = new int[3, 5, 7];
-
-            List<char> myList1 = new List<char>("lets go to school");
-            myList1.Add('P');
-            myList1.Add('r');
-            myList1.Add('o');
-            myList1.Add('g');
-
-            Console.WriteLine("the 4th element of the list is " + myList1[3]);
-
-            myList1.Clear();
-
-            //what does this do is enumerating each element of the string (string is a character array) and adds into the list
-            myList1.AddRange("introduction to programming");
-
-            myList1.Clear();
-
-            List<char> mySecondList = new List<char> { 'h', 'o', 'm', 'e' };
-
-            myList1.AddRange(mySecondList);
-            mySecondList.AddRange("go");
-            mySecondList.Add('o');
-            mySecondList.Add('k');
-
-            List<int> myintList = new List<int> { 4, 5, 1, 2, 5, 1 };
-
-
-            //define this list, change second element to f and print it to the screen
-            List<char> myTempList = new List<char> { 'h', 'o', 'm', 'e' };
-
-            Console.WriteLine(myTempList[1]);
-
-            myTempList[1] = 'f';
-
-            myTempList.RemoveAt(1);//deletes the element at the x'th index
-            myTempList.Remove('f');
-
-            Console.WriteLine(myTempList[1]);
-
-            Console.WriteLine(myTempList[2]);
-
-            myTempList.Insert(2, 'P');
-
-            Console.WriteLine(myTempList[2]);
-
-            //insert character G after the second element and print it to the screen
-
-            char[] myArray3 = "home".ToCharArray();
-
-            List<char> mySortList = "lets go to the school".ToList();
-
-            mySortList.Sort();//this sorts the list ascendin (from smaller to bigger)
-            mySortList.Reverse(); //this reverse orders the list
-
-            mySortList = mySortList.Distinct().ToList();
-            var myTemp3 = mySortList.Take(3).ToList();
-            mySortList = "lets go to the school".ToList();
-            var mytemp4 = mySortList.GetRange(5, 9);
-
-            List<int> myList3 = new List<int> { 4, 511, 32, 56, 78, 32, 56 };
-
-            var maxitem = myList3.Max();
-            var minitem = myList3.Min();
-            var index32 = myList3.IndexOf(32);
-            var lastindex32 = myList3.LastIndexOf(32);
-            var avgList = myList3.Average();
-            var sumlist = myList3.Sum();
-
-            bool result1 = myList3.Contains(512);
-            bool result2 = myList3.Contains(511);
-
-            if(myList3.Contains(512))
+            if (d < e)
             {
+                Console.WriteLine("e is bigger than d 1");
+                Console.WriteLine("e is bigger than d 2");
+                Console.WriteLine("e is bigger than d 3");
+            }
 
+            if (e < d)
+            {
+                Console.WriteLine("e is bigger than d 1");
+                if (k > e)
+                {
+                    Console.WriteLine("e is bigger than d 2");
+                }
+
+                Console.WriteLine("e is bigger than d 3");
+            }
+
+            if (e > k)
+            {
+                Console.WriteLine("since e is not smaller than k this line is executed 1 ");
+                Console.WriteLine("since e is not smaller than k this line is executed 2");
+                Console.WriteLine("since e is not smaller than k this line is executed 3");
             }
             else
             {
+                Console.WriteLine("since e is smaller than k this line is executed");
+            }
+
+            if (e > k)
+                Console.WriteLine("since e is not smaller than k this line is executed 1 ");
+            else
+                Console.WriteLine("since e is smaller than k this line is executed");
+
+
+            int number1 = 15;
+            int number2 = 15;
+            int number3 = 21;
+
+            if (number1 == number3)
+            {
+                Console.WriteLine("number 1 is equal to number 3");
+            }
+            // if (number1 => number3) this is incorrect
+            if (number1 >= number3)
+            {
+                Console.WriteLine("number 1 is bigger or equal to number 3");
+            }
+            if (number1 <= number3)
+            {
+                Console.WriteLine("number 1 is smaller or equal to number 3");
+            }
+
+            if (number1 == number2)
+            {
+                Console.WriteLine("number 1 is equal to number 2");
+            }
+            // if (number1 => number3) this is incorrect
+            if (number1 >= number2)
+            {
+                Console.WriteLine("number 1 is bigger or equal to number 2");
+            }
+            if (number1 <= number2)
+            {
+                Console.WriteLine("number 1 is smaller or equal to number 2");
+            }
+
+            string myText1 = "my text 1";
+            string myText2 = "my text 2";
+            string myText3 = "my Text 2";
+
+            if (myText1 == myText2)
+            {
+                Console.WriteLine("1");
+            }
+            if (myText1 != myText2)
+            {
+                Console.WriteLine("2");
+            }
+            if (myText1 == myText3)
+            {
+                Console.WriteLine("3");
+            }
+            if (myText1 != myText3)
+            {
+                Console.WriteLine("4");
+            }
+            if (myText1 != myText2)
+            {
+                Console.WriteLine("5");
+            }
+            if (myText2 == myText3)
+            {
+                Console.WriteLine("5");
+            }
+
+            if (myText2.ToLower() == myText3.ToLower())
+            {
+                Console.WriteLine("5");
+            }
+
+            string myTurkishText1 = "İIsim";
+            string myTurkishText2 = "iısim";
+
+            if (myTurkishText1.ToLower() == myTurkishText2.ToLower())
+            {
+                Console.WriteLine("5");
+            }
+
+            var mytex1 = myTurkishText1.ToUpperInvariant();
+            mytex1 = mytex1.ToLowerInvariant();
+
+            var mytex2 = myTurkishText2.ToUpperInvariant();
+            mytex2 = mytex2.ToUpperInvariant();
+
+            if (myTurkishText1.ToUpperInvariant().ToLowerInvariant() == myTurkishText2.ToUpperInvariant().ToLowerInvariant())
+            {
+                Console.WriteLine("5");
+            }
+
+            if (myTurkishText1.ToLower(new System.Globalization.CultureInfo("tr-TR")) == myTurkishText2.ToLower(new System.Globalization.CultureInfo("tr-TR")))
+            {
+                Console.WriteLine("5");
+            }
+
+            string text1 = null;
+            string text2 = null;
+
+            if (text1 == text2)
+            {
 
             }
 
-            
+            Console.WriteLine(text1);
+
+            if (text1 == mytex1)
+            {
+
+            }
+
+            string text4 = "";
+
+
+            if (text1 == text4)
+            {
+
+            }
+
+            //if (text1.Length == 0)
+            //{
+            //this throws error since null lenght can not be checked
+            //}
+
+
+            if (text1?.Length == 0)
+            {
+
+            }
+            if (text1 != null)
+            {
+                if (text1.Length == 0)
+                {
+
+                }
+            }
+
+            if (text4.Length == 0)
+            {
+
+            }
+            if (mytex1.Length == 0)
+            {
+
+            }
+
+            int gg = 3 - 4 * 5;
+            int gg2 = (3 - 4) * 5;
+
+            Console.WriteLine(gg);
+            Console.WriteLine(gg2);
+
+            Console.WriteLine("hello world");
+
 
             Console.ReadLine();
         }

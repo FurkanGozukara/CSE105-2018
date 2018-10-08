@@ -1,0 +1,7 @@
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 4\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 4\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 4\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 4\ConsoleApp1\obj\Debug\Lecture 4.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 4\ConsoleApp1\obj\Debug\Lecture 4.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 4\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 4\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
