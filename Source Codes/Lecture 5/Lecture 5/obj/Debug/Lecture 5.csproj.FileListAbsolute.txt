@@ -1,0 +1,7 @@
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 5\Lecture 5\bin\Debug\Lecture 5.exe.config
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 5\Lecture 5\bin\Debug\Lecture 5.exe
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 5\Lecture 5\bin\Debug\Lecture 5.pdb
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 5\Lecture 5\obj\Debug\Lecture 5.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 5\Lecture 5\obj\Debug\Lecture 5.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 5\Lecture 5\obj\Debug\Lecture 5.exe
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 5\Lecture 5\obj\Debug\Lecture 5.pdb
