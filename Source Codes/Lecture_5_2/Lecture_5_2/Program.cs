@@ -43,6 +43,7 @@ namespace Lecture_5_2
                     continue;
                 }
 
+                //function returns true if the number is a prime number
                 bool isAPrimeNumber = check_Is_Prime(intCheck);
 
                 if (isAPrimeNumber == false)

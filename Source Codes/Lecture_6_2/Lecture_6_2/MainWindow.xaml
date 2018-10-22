@@ -1,0 +1,17 @@
+﻿<Window x:Class="Lecture_6_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lecture_6_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txt_input_1" HorizontalAlignment="Left" Height="23" Margin="35,34,0,0" TextWrapping="Wrap" Text="number 1" VerticalAlignment="Top" Width="120" GotFocus="txt_input_1_GotFocus" LostFocus="txt_input_1_LostFocus"/>
+        <TextBox x:Name="txt_input_2" HorizontalAlignment="Left" Height="23" Margin="179,34,0,0" TextWrapping="Wrap" Text="number 2" VerticalAlignment="Top" Width="120" GotFocus="txt_input_2_GotFocus" LostFocus="txt_input_2_LostFocus"/>
+        <ComboBox Name="cmbBoxOperation" HorizontalAlignment="Left" Margin="323,34,0,0" VerticalAlignment="Top" Width="177"/>
+        <Label Name="lblResult" Content="result" HorizontalAlignment="Left" Margin="323,85,0,0" VerticalAlignment="Top" Width="398"/>
+        <Button Name="btnCalc" Content="Calculate" HorizontalAlignment="Left" Margin="515,23,0,0" VerticalAlignment="Top" Width="103" Height="41" Click="btnCalc_Click"/>
+
+    </Grid>
+</Window>
