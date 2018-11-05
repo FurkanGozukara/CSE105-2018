@@ -1,0 +1,7 @@
+add element 1
+add element 12
+add element 123
+add element 1234
+add element 12345
+add element 123456
+bu satır dosyanın üzerine eklenecek

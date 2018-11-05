@@ -1,0 +1,15 @@
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\bin\Debug\Lecture_8.exe.config
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\bin\Debug\Lecture_8.exe
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\bin\Debug\Lecture_8.pdb
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\obj\Debug\Lecture_8.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\obj\Debug\MainWindow.g.cs
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\obj\Debug\App.g.cs
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\obj\Debug\Lecture_8_MarkupCompile.cache
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\obj\Debug\Lecture_8_MarkupCompile.lref
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\obj\Debug\MainWindow.baml
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\obj\Debug\Lecture_8.g.resources
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\obj\Debug\Lecture_8.Properties.Resources.resources
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\obj\Debug\Lecture_8.csproj.GenerateResource.cache
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\obj\Debug\Lecture_8.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\obj\Debug\Lecture_8.exe
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture_8\Lecture_8\obj\Debug\Lecture_8.pdb
