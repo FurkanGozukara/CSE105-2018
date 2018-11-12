@@ -17,6 +17,10 @@
         <Label Content="fresh info" HorizontalAlignment="Left" Margin="454,38,0,0" VerticalAlignment="Top"/>
         <Label Content="historic info" HorizontalAlignment="Left" Margin="595,38,0,0" VerticalAlignment="Top"/>
         <Button Name="btnReadText" Content="Read Text Files" HorizontalAlignment="Left" Margin="667,10,0,0" VerticalAlignment="Top" Width="117" Height="36" Click="btnReadText_Click"/>
+        <Label Content="text to control: " HorizontalAlignment="Left" Margin="40,138,0,0" VerticalAlignment="Top"/>
+        <TextBox  Name="txttextTocheck" HorizontalAlignment="Left" Height="23" Margin="136,139,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btnCheck" Content="control" HorizontalAlignment="Left" Margin="272,141,0,0" VerticalAlignment="Top" Width="75" Click="btnCheck_Click"/>
+        <Button Name="btnExample" Content="text compare example" HorizontalAlignment="Left" Margin="136,199,0,0" VerticalAlignment="Top" Width="170" Height="30" Click="btnExample_Click"/>
 
     </Grid>
 </Window>
