@@ -1,4 +1,12 @@
- public class Calculate
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lecture_10
+{
+   public class MathCalculate
     {
         private string[] _operators = { "-", "+", "/", "*", "^" };
         private Func<decimal, decimal, decimal>[] _operations = {
@@ -121,3 +129,4 @@
             return tokens;
         }
     }
+}
