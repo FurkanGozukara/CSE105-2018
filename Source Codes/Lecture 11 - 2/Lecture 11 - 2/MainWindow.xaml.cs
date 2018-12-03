@@ -44,13 +44,50 @@ namespace Lecture_11___2
 
             double outResult = 0;
 
-          if(!double.TryParse(txtVize.Text, out outResult))
+            if (!double.TryParse(txtVize.Text, out outResult))
             {
                 MessageBox.Show("You have entered incorrect value for the midterm score!");
                 return;
             }
 
             myOgrenci.dblVizeNot = outResult;
+
+            outResult = 0;
+
+      if (double.TryParse(txtFinalNotu.Text, out outResult) == false)
+            {
+                MessageBox.Show("You have entered incorrect value for the final score!");
+                return;
+            }
+
+            myOgrenci.dblFinal = outResult;
+            //if that student exists, update his/her scores
+            if (dicOgrenciler.ContainsKey(myOgrenci.irOgrenciNo))
+            {
+                //dicOgrenciler[key]=value
+                dicOgrenciler[myOgrenci.irOgrenciNo] = myOgrenci;
+            }
+            else//else add that student to the records
+                dicOgrenciler.Add(myOgrenci.irOgrenciNo, myOgrenci);
+
+            refreshListBox();
+        }
+        
+        private void refreshListBox()
+        {
+            lstOgrenciler.Items.Clear();
+            dicOgrenciler= dicOgrenciler.OrderBy(pr => pr.Value.irOgrenciNo).ToDictionary(pr => pr.Key, pr => pr.Value);
+
+            foreach (var wholeValue in dicOgrenciler)
+            {
+                lstOgrenciler.Items.Add(
+                    string.Format("NO: {0} , İsim: {1} , Vize: {2} , Final: {3}",
+                    wholeValue.Value.irOgrenciNo,   //0
+                    wholeValue.Value.srOgrenciName, //1
+                    wholeValue.Value.dblVizeNot,    //2
+                    wholeValue.Value.dblFinal)      //3
+                    );    
+            }
         }
     }
 }
