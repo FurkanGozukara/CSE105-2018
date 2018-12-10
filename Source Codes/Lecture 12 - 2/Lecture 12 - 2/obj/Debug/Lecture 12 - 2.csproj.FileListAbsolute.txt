@@ -1,0 +1,15 @@
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\bin\Debug\Lecture 12 - 2.exe.config
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\bin\Debug\Lecture 12 - 2.exe
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\bin\Debug\Lecture 12 - 2.pdb
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\obj\Debug\Lecture 12 - 2.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\obj\Debug\MainWindow.g.cs
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\obj\Debug\App.g.cs
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\obj\Debug\Lecture 12 - 2_MarkupCompile.cache
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\obj\Debug\Lecture 12 - 2_MarkupCompile.lref
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\obj\Debug\MainWindow.baml
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\obj\Debug\Lecture 12 - 2.g.resources
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\obj\Debug\Lecture_12___2.Properties.Resources.resources
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\obj\Debug\Lecture 12 - 2.csproj.GenerateResource.cache
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\obj\Debug\Lecture 12 - 2.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\obj\Debug\Lecture 12 - 2.exe
+C:\Users\Furkan Gözükara\Desktop\introduction to programming\Source Codes\Lecture 12 - 2\Lecture 12 - 2\obj\Debug\Lecture 12 - 2.pdb
