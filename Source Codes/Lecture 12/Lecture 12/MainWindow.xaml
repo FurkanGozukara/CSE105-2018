@@ -1,0 +1,17 @@
+﻿<Window x:Class="Lecture_12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lecture_12"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="btnWriteToFile" Content="write to file" HorizontalAlignment="Left" Margin="194,32,0,0" VerticalAlignment="Top" Width="144" Height="58" Click="btnWriteToFile_Click"/>
+        <TextBox Name="txtNumber" HorizontalAlignment="Left" Height="37" Margin="27,42,0,0" TextWrapping="Wrap" Text="enter a number" VerticalAlignment="Top" Width="151" GotFocus="txtNumber_GotFocus" LostFocus="txtNumber_LostFocus"/>
+        <ListBox Name="lstWrittenLines" HorizontalAlignment="Left" Height="195" Margin="27,115,0,0" VerticalAlignment="Top" Width="737"/>
+        <Button Name="readnumbertxt" Content="read number txt with stream reader" HorizontalAlignment="Left" Margin="356,32,0,0" VerticalAlignment="Top" Width="208" Height="58" Click="readnumbertxt_Click"/>
+        <Button Name="readAllLines" Content="read with all lines" HorizontalAlignment="Left" Margin="569,32,0,0" VerticalAlignment="Top" Width="195" Height="58" Click="readAllLines_Click"/>
+
+    </Grid>
+</Window>
